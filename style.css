@@ -1,0 +1,79 @@
+.page {
+    display: none;
+}
+.active {
+    display: block;
+}
+
+body {
+    font-family: 'New Tegomin', serif;
+    background-color: #e9ecef;
+}
+.p-3 {
+    font-size: 30px;
+}
+
+#createStoryPage { 
+    padding: 1.5rem;
+    line-height: 3rem;
+    
+}
+#createStory {
+    margin: 1.5rem;
+    max-height: 50%;
+}
+
+#createStoryPage button {
+    display: block;
+    width: 100%;
+}
+.word {
+    text-decoration: underline;
+}
+
+
+button {
+    background-color: #adb5bd;
+    font-size: 20px;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #303235;
+    color: #b76935;
+}
+#readStoryForm input {
+    line-height: 0.3rem;
+    margin-top: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    
+}
+p {
+    margin: 1.5rem;
+}
+
+h3 {
+    margin: 1.5rem;
+}
+
+h4 {
+    margin: 1.5rem;
+}
+
+#displayStoryPage button {
+    width: 50%;
+}
+
+
+
+
+
+
